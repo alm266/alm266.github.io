@@ -1,0 +1,9 @@
+  <div class="row">
+    <div class="col-xs-12">
+      <app-career-item 
+          *ngFor="let entryEl of entries"
+          [entry]="entryEl"
+          (entrySelected)="onEntrySelected(entryEl)"></app-career-item>
+    </div>
+  </div>
+  

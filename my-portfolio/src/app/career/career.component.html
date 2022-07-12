@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-md-5">
+      <app-career-list
+      (entryWasSelected)="selectedEntry = $event"></app-career-list>
+    </div>
+    <div class="col-md-7">
+      <app-career-details
+        *ngIf="selectedEntry; else infoText"
+        [entry]="selectedEntry"></app-career-details>
+        <ng-template #infoText>
+          <p>Select an experience</p>
+        </ng-template>
+    </div>
+  </div>
+  
