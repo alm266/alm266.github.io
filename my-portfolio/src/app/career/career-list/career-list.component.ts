@@ -21,7 +21,7 @@ export class CareerListComponent implements OnInit {
       'Triple C Technologies',
       'Software Engineer (Contract)',
       ['Feb 2020', 'Apr 2020'],
-      'Build live demonstration for CEL Saftey System',
+      'Built live demonstration for C.E.L. Safety System',
       'https://images.squarespace-cdn.com/content/v1/5f0e881a913cd20e05182a26/1596632291588-A0JLCCBZIW6ORMIK3YMV/TripleCTechLogo%28fix%29.png?format=1500w'
     ),
     new CareerEntry(
@@ -35,8 +35,15 @@ export class CareerListComponent implements OnInit {
       'Price Manager',
       'Data Manager',
       ['Feb 2022', 'June 2022'],
-      'Worked with online web scrapers to collect pricing and sku info of clients\'s competitors',
-      'https://media-exp2.licdn.com/dms/image/C4D0BAQH3qe453QvEYQ/company-logo_200_200/0/1519901388754?e=2147483647&v=beta&t=K9XJEWcCKdUhSxDF7Q9YZx2s3dDhHksYUVa5_J3kns8'
+      'Worked with online web scrapers to collect pricing and sku info of clients\' competitors',
+      'https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_0332c8abade06283a29471f11c0571a2/pricemanager.png'
+    ),
+    new CareerEntry(
+      'Burlington',
+      'Fullstack Engineer I - Emerging Tech',
+      ['July 2022', 'Present'],
+      'Building, maintaining and testing new libraries for wider company usage',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Burlington_Stores_logo.svg/2560px-Burlington_Stores_logo.svg.png'
     )
   ];
 

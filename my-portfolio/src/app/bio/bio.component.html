@@ -1,4 +1,4 @@
-<div class="row">
+<div class="col-md-5">
     <div class="pull-left">
         <h1>{{ myBio.name }}</h1>
         <h4>{{ myBio.job }}</h4>
@@ -6,12 +6,14 @@
         <hr>
         <p>{{ myBio.description }}</p>
     </div>
-        <span class="pull-right">
-            <img
-              [src]="myBio.imagePath"
-              alt="{{ myBio.name }}"
-              class="img-responsive"
-              style="max-height: 500px"
-            />
-          </span>
-  </div>
+</div>
+<div class="col-md-7">
+    <span class="pull-right">
+        <img
+            [src]="myBio.imagePath"
+            alt="{{ myBio.name }}"
+            class="img-responsive"
+            style="max-height: 500px"
+        />
+    </span>
+</div>
