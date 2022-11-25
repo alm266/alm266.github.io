@@ -49,7 +49,9 @@ export class CareerListComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.onEntrySelected(this.entries[0])
+  }
 
   onEntrySelected(entry: CareerEntry){
     this.entryWasSelected.emit(entry);
