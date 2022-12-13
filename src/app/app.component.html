@@ -1,9 +1,17 @@
-<app-header (featureSelected)="onNavigate($event)"></app-header>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <app-bio *ngIf="loadedFeature === 'bio'"></app-bio>
-      <app-career *ngIf="loadedFeature === 'career'"></app-career>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Andrew's Portfolio</title>
+</head>
+
+<body>
+  <app-header (featureSelected)="onNavigate($event)"></app-header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <app-bio *ngIf="loadedFeature === 'bio'"></app-bio>
+        <app-career *ngIf="loadedFeature === 'career'"></app-career>
+      </div>
     </div>
   </div>
-</div>
+</body>

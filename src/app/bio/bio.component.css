@@ -1,0 +1,10 @@
+img {
+    border-radius: 50%;
+}
+
+.pull-left {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+}
