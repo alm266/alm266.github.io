@@ -13,7 +13,10 @@ export class BioComponent implements OnInit {
     'Andrew Marshall',
     'Fullstack Software Engineer I - Emerging Tech',
     'Rutgers University, New Brunswick',
-    'I grew up in northern NJ. I graduated from Rutgers in 2017 with a BS in Computer Science with a second major in English. Since then, I have been working as a Software Engineer at various companies.'
+    `I grew up in northern NJ and graduated from Rutgers in 2017 with a BS in Computer Science and a second 
+      major in English. Since then, I have been working as a Software Engineer and Programmer at various 
+      companies. I'm the youngest of my 3 siblings, of which is also a professional Software Engineer in NYC. 
+      For fun, I enjoy gaming, playing guitar and playing pickup backetball games at the gym.`
   )
 
   constructor() { }

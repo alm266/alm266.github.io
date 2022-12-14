@@ -10,11 +10,12 @@
   <div class="row">
     <div class="col-xs-12">
       <h1>{{ entry.company }}</h1>
-        <h3>{{ entry.position }}<br>({{ entry.years[0] }} - {{ entry.years[1] }})</h3>
+      <h3>{{ entry.position }}</h3>
+      <h4>({{ entry.years[0] }} - {{ entry.years[1] }})</h4>
     </div>
   </div>
   <hr>
   <div class="row">
-    <div class="col-xs-12">{{ entry.description }}</div>
+    <div class="col-xs-12 description">{{ entry.description }}</div>
   </div>
 </div>

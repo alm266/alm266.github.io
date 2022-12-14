@@ -1,9 +1,0 @@
-.background {
-    height:60em; 
-    width: auto;
-    background-size: 100% 100%;
-    background-image:url('https://static-cse.canva.com/blob/571508/Patterns303.e4f86058.jpg');
-    background-position: 50% 50%;
-    object-fit: scale-down;
-    z-index: 1;
-  }

@@ -6,7 +6,12 @@ img {
 
 .container {
     background-color: white;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 200px;
+    padding: 30px;
+    padding-bottom: 50px;
+    width: auto;
+    height: 730px;
+}
+
+.description {
+    font-size: 16px;
 }
