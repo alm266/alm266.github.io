@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatStepperModule } from '@angular/material/stepper';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -9,15 +10,36 @@ import { CareerEntryComponent } from './career/career-entry/career-entry.compone
 import { CareerListComponent } from './career/career-list/career-list.component';
 import { CareerDetailsComponent } from './career/career-details/career-details.component';
 import { MaterialModule } from './material/material.module';
+import { ProjectsComponent } from './projects/projects.component';
+import { MatAutocompleteModule, MatButtonModule, MatIconModule, MatInputModule } from '@angular/material';
+import { ReactiveFormsModule } from '@angular/forms'
+
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { STEPPER_GLOBAL_OPTIONS } from '@angular/cdk/stepper';
 
 @NgModule({
   declarations: [
-    AppComponent, HeaderComponent, BioComponent, CareerComponent, CareerEntryComponent, CareerListComponent, CareerDetailsComponent
+    AppComponent, HeaderComponent, BioComponent, CareerComponent, CareerEntryComponent, CareerListComponent, CareerDetailsComponent, ProjectsComponent
   ],
+  
   imports: [
-    BrowserModule, MaterialModule
+    BrowserModule, 
+    MaterialModule, 
+    MatStepperModule, 
+    MatInputModule,
+    MatButtonModule,
+    MatAutocompleteModule, 
+    ReactiveFormsModule,
+    MatStepperModule,
+    MatIconModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: STEPPER_GLOBAL_OPTIONS,
+      useValue: { displayDefaultIndicatorType: false }
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

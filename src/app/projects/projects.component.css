@@ -1,0 +1,12 @@
+p {
+    background-color: grey;
+}
+
+.mat-stepper-vertical {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    width: 450px;
+    height: 500px;
+}
