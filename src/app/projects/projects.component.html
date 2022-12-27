@@ -1,20 +1,9 @@
 <div>
   <mat-vertical-stepper>
-    <mat-step label="Step 1">
+    <mat-step *ngFor="let project of projects" label="{{ project.name }}">
       <div style="padding-top: 3%;">
-          Step 1 content
-      </div>
-    </mat-step>
-
-    <mat-step label="Step 2">
-      <div style="padding-top: 3%;">
-          Step 2 content
-      </div>
-    </mat-step>
-
-    <mat-step label="Step 3">
-      <div style="padding-top: 3%;">
-          You are now done.
+          <h2>{{ project.name }}</h2>
+          <p>{{ project.description }}</p>
       </div>
     </mat-step>
   </mat-vertical-stepper>
